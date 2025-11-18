@@ -20,3 +20,4 @@ public class ComputadorPortatil extends Dispositivo{
         this.procesador = procesador;
     }
 }
+
