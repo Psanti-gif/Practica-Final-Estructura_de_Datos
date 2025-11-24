@@ -9,6 +9,7 @@ public class Estudiante {
         Apellido = apellido;
         Teléfono = teléfono;
     }
+    
     public Estudiante() {
     }
     public String getCedula() {
