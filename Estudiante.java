@@ -1,8 +1,8 @@
 public class Estudiante {
-    String Cedula;
-    String Nombre;
-    String Apellido;
-    String Teléfono;
+    private String Cedula;
+    private String Nombre;
+    private String Apellido;
+    private String Teléfono;
     public Estudiante(String cedula, String nombre, String apellido, String teléfono) {
         Cedula = cedula;
         Nombre = nombre;
