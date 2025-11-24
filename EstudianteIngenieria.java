@@ -18,6 +18,10 @@ public class EstudianteIngenieria extends Estudiante{
         this.promedio_acumulado = promedio_acumulado;
         this.serial_equipo = serial_equipo;
     }
+    
+    public EstudianteIngenieria() {
+        super();
+    }
     public void setPromedio_acumulado(float promedio_acumulado) {
         this.promedio_acumulado = promedio_acumulado;
     }

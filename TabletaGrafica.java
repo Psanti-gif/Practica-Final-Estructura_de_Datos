@@ -18,4 +18,8 @@ public class TabletaGrafica extends Dispositivo {
         this.peso = peso;
         this.almacenamiento = almacenamiento;
     }
+    
+    public TabletaGrafica() {
+        super();
+    }
 }

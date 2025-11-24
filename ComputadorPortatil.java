@@ -19,5 +19,9 @@ public class ComputadorPortatil extends Dispositivo{
         this.sistema_operativo = sistema_operativo;
         this.procesador = procesador;
     }
+    
+    public ComputadorPortatil() {
+        super();
+    }
 }
 

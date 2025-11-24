@@ -1,16 +1,18 @@
 public class Dispositivo {
-    String Serial;
-    String Marca;
-    Float Tamaño;
+    private String Serial;
+    private String Marca;
+    private Float Tamaño;
+    private Float Precio;
+    
     public Dispositivo(String serial, String marca, Float tamaño, Float precio) {
         Serial = serial;
         Marca = marca;
         Tamaño = tamaño;
         Precio = precio;
     }
+    
     public Dispositivo() {
     }
-    Float Precio;
     public String getSerial() {
         return Serial;
     }

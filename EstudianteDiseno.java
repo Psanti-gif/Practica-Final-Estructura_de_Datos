@@ -18,6 +18,10 @@ public class EstudianteDiseno extends Estudiante{
         this.cantidad_asignaturas = cantidad_asignaturas;
         this.serial_equipo = serial_equipo;
     }
+    
+    public EstudianteDiseno() {
+        super();
+    }
     public void setCantidad_asignaturas(int cantidad_asignaturas) {
         this.cantidad_asignaturas = cantidad_asignaturas;
     }
