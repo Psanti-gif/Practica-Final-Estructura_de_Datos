@@ -17,7 +17,7 @@ public class GestorPrestamos {
         vector_tableta = new ArrayList<>();
     }
     
-    // ========== MÉTODOS PARA ESTUDIANTES DE INGENIERÍA ==========
+   
     
     public void registrarPrestamoIngenieria() {
         System.out.println("\n=== REGISTRAR PRÉSTAMO - ESTUDIANTE DE INGENIERÍA ===");
@@ -226,7 +226,7 @@ public class GestorPrestamos {
         System.out.println("Serial del equipo: " + est.getSerial_equipo());
     }
     
-    // ========== MÉTODOS PARA ESTUDIANTES DE DISEÑO ==========
+  
     
     public void registrarPrestamoDiseno() {
         System.out.println("\n=== REGISTRAR PRÉSTAMO - ESTUDIANTE DE DISEÑO ===");

@@ -22,7 +22,7 @@ public class MenuSistema {
         do {
             System.out.println("\n" + repetirCaracter('=', 60));
             System.out.println("    GESTIÓN PRÉSTAMO EQUIPOS ELECTRÓNICOS");
-            System.out.println("         SAN JUAN DE DIOS");
+            System.out.println("              SAN JUAN DE DIOS           ");
             System.out.println(repetirCaracter('=', 60));
             System.out.println("1. Estudiantes de Ingeniería");
             System.out.println("2. Estudiantes de Diseño");
